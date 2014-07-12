@@ -5,7 +5,7 @@ A simple wrapper library for JRI, Java/R interface, mostly to draw charts on R.
 
 ## Preparation
 
-You may need to install R library "JGR/rJava" (https://rforge.net/JGR/linux.html) on R by "install.packages('rJava')" and have to set the following environment variables.
+You may need to install R library "JGR/rJava" (http://rforge.net/JGR/) on R by "install.packages('rJava')" and have to set the following environment variables.
 
 (example)
 export R_HOME=/usr/lib/R/
@@ -25,7 +25,11 @@ lein localrepo install ./target/clj-jri-0.0.1-standalone.jar clj-jri 0.0.1-stand
 
 ## Examples and notes
 
-See clj-jri.sample.
+See clj-jri.sample for the example codes and notes on the usage.
+
+## TODO
+
+Additional features may be supported in the future, when necessary.
 
 
 ## References
